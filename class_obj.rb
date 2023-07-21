@@ -9,7 +9,6 @@ class Animal
    def self.monkey
     p 'i am self monkey'
    end
-    
 end
 
 class Device < Animal
