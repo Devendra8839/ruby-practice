@@ -18,4 +18,5 @@ end
 
 a = GlobalVar.new
 a.var01
-a.var02
+a.send :private_method  #access private methods in the class (way 01)
+a.var02  #access private methods in the class (way 02) via public methods
